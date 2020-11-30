@@ -19,6 +19,8 @@ now on the pc with http://localhost:8081/ you can debug http requests. <br/>
 #### 1.2.1 installing ca certificate on android < *Android Nougat*
 1. Go to mitm.it on your android device
 2. download the certificate 
-3. install it
-then you should be able to debug https to
+3. install it 
+</br>
+now you should be able to debug https to
+
 #### 1.2.2 installing ca certifcate on android >= *Android Nougat*
