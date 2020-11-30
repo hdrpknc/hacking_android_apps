@@ -21,7 +21,7 @@ now on the pc with http://localhost:8081/ you can debug http requests. <br/>
 2. download the certificate 
 3. install it 
 
-now you should be able to debug https too
+
 
 #### 1.2.2 installing ca certifcate on android >= *Android Nougat*
 
@@ -31,5 +31,4 @@ now you should be able to debug https too
 
 > Since Android 7, apps ignore user certificates, unless they are configured to use them. As most applications do not explicitly opt in to use user certificates, you need to place the mitmproxy CA certificate in the system certificate store, in order to avoid having to patch each application, which you want to monitor. 
 
-</br>
-**google if you need help**.
+now you should be able to debug https too
