@@ -33,4 +33,7 @@ now on the pc with http://localhost:8081/ you can debug http requests. <br/>
 
 now you should be able to debug https too
 
-## 2. analyse coding
+## 2. analysis of the coding
+
+1. Determine the package name of the app, e.g. "com.example.someapp". Skip this step if you already know the package name.
+`adb shell pm list packages`
