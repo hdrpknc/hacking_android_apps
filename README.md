@@ -55,8 +55,25 @@ now try understand the parts which you are interested
 
 ## 3. hacking with frida
 
-1. install frida on you pc
-2. find the frida server for you android device here https://github.com/frida/frida/releases
+### 3.1 setting up
+
+1. install frida on you pc `pip install frida`
+2. find the frida server for your android device here https://github.com/frida/frida/releases
 3. unpack the archive and send frida-server file to your device using: </br> 
 `adb push {frida-server-file-name} /data/local/tmp`
+4. `adb shell` will get us to device shell
+5. cd `/data/local/tmp` will take us to where we’ve send frida-server
+6. (optional) `mv {frida-server-file-name} frida-server`
+7. `chmod 755 frida-server` to change permissions
 
+### 3.2 running
+
+1. `adb shell su` start shell as sudo/ super
+2. cd `/data/local/tmp`
+3. `./frida-server` to finally run it </br>
+Notice that you wont get any info in console, it will just start running
+4. Every other command should be run from separate terminal. </br> 
+It’s also a good idea to open logcat in separate terminal with `adb logcat`.
+5. on new terminal `frida -U com.example.someapp`
+
+We are all good to go, happy hacking :)
