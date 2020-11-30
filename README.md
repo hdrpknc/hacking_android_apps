@@ -35,7 +35,7 @@ now you should be able to debug https too
 
 ## 2. analysis of the coding
 
-get the coding on the pc from the android device with an usb cable
+get the apk on the pc from the android device with an usb cable
 
 0. Check connection with the android device via comand `adb devices` on the terminal
 1. Determine the package name of the app, e.g. *"com.example.someapp"*. Skip this step if you already know the package name. </br>
@@ -49,3 +49,5 @@ or </br>
 *package:/data/app/com.example.someapp-nfFSVxn_CTafgra3Fr_rXQ==/base.apk*
 3. Using the full path name from Step 2, pull the APK file from the Android device to the pc </br>
 `adb pull /data/app/com.example.someapp-2.apk path/to/desired/destination`
+
+get the coding from the apk. i am using JADX https://github.com/skylot/jadx but there are other tools also. just google. 
