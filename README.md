@@ -29,5 +29,7 @@ now you should be able to debug https too
 2. download the certificate 
 3. install it 
 
-Since Android 7, apps ignore user certificates, unless they are configured to use them. As most applications do not explicitly opt in to use user certificates, you need to place the mitmproxy CA certificate in the system certificate store, in order to avoid having to patch each application, which you want to monitor. </br>
+> Since Android 7, apps ignore user certificates, unless they are configured to use them. As most applications do not explicitly opt in to use user certificates, you need to place the mitmproxy CA certificate in the system certificate store, in order to avoid having to patch each application, which you want to monitor. 
+
+</br>
 **google if you need help**.
