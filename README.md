@@ -54,3 +54,6 @@ get the coding from the apk. i am using JADX https://github.com/skylot/jadx but 
 now try understand the parts which you are interested
 
 ## 3. hacking with frida
+
+1. install frida on you pc
+2. find the frida server for you android device here https://github.com/frida/frida/releases
