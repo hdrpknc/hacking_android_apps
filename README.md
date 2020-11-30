@@ -14,6 +14,6 @@ it that case i use *mitmweb* from https://mitmproxy.org/ because it is free and 
 in the proxy setting you enter the ip adress of the pc and the port 8080
 now the android device connects through your pc with the internet. <br/>
 
-now on http://localhost:8081/ you can debug http request but *ony http not https* <br/>
+now on http://localhost:8081/ you can debug http request. but **only http not https yet** <br/>
 for http you need to install a certificate on your android device
 #### 1.2.1 
