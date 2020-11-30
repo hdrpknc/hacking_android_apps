@@ -41,3 +41,4 @@ get the coding on the pc from the android device with an usb cable
 1. Determine the package name of the app, e.g. *"com.example.someapp"*. Skip this step if you already know the package name. </br>
 `adb shell pm list packages` </br>
 Look through the list of package names and try to find a match between the app in question and the package name. This is usually easy, but note that the package name can be completely unrelated to the app name. If you can't recognize the app from the list of package names, try finding the app in Google Play using a browser. The URL for an app in Google Play contains the package name.
+2. Get the full path name of the APK file for the desired package. </br>
