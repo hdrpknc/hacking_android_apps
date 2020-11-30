@@ -35,7 +35,7 @@ now you should be able to debug https too
 
 ## 2. analysis of the coding
 
-get the coding on the pc
+get the coding on the pc from the android device with an usb cable
 
 1. Determine the package name of the app, e.g. "com.example.someapp". Skip this step if you already know the package name. </br>
 `adb shell pm list packages` </br>
