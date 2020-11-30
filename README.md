@@ -17,7 +17,7 @@ now the android device connects through your pc with the internet. <br/>
 now on the pc with http://localhost:8081/ you can debug http requests. <br/>
 **for https requests you need to install a certificate on your android device**
 #### 1.2.1 installing ca certificate on android < *Android Nougat*
-1. Go to mitm.it on your android device
+1. Go to website **mitm.it** on your android device
 2. download the certificate 
 3. install it 
 
@@ -25,7 +25,7 @@ now on the pc with http://localhost:8081/ you can debug http requests. <br/>
 
 #### 1.2.2 installing ca certifcate on android >= *Android Nougat*
 
-1. Go to mitm.it on your android device
+1. Go to website **mitm.it** on your android device
 2. download the certificate 
 3. install it 
 
