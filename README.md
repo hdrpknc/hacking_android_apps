@@ -50,4 +50,7 @@ or </br>
 3. Using the full path name from Step 2, pull the APK file from the Android device to the pc </br>
 `adb pull /data/app/com.example.someapp-2.apk path/to/desired/destination`
 
-get the coding from the apk. i am using JADX https://github.com/skylot/jadx but there are other tools also. just google. 
+get the coding from the apk. i am using JADX https://github.com/skylot/jadx but there are other tools also. just google. </br>
+now try understand the parts which you are interested
+
+## 3. hacking with frida
