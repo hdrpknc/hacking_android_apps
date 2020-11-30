@@ -57,3 +57,6 @@ now try understand the parts which you are interested
 
 1. install frida on you pc
 2. find the frida server for you android device here https://github.com/frida/frida/releases
+3. unpack the archive and send frida-server file to your device using: </br> 
+`adb push {frida-server-file-name} /data/local/tmp`
+
