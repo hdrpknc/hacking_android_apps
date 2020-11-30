@@ -47,3 +47,5 @@ The output will look something like </br>
 *pckage:/data/app/com.example.someapp-2.apk* </br>
 or </br>
 *package:/data/app/com.example.someapp-nfFSVxn_CTafgra3Fr_rXQ==/base.apk*
+3. Using the full path name from Step 2, pull the APK file from the Android device to the pc </br>
+`adb pull /data/app/com.example.someapp-2.apk path/to/desired/destination`
